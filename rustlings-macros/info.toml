@@ -1211,3 +1211,22 @@ name = "conversions5"
 dir = "23_conversions"
 hint = """
 Add `AsRef<str>` or `AsMut<u32>` as a trait bound to the functions."""
+
+# CONTRIBUTING EXAMPLE
+
+[[exercises]]
+name = "contributing1"
+dir = "24_contributing_example"
+test = false
+skip_check_unsolved = true
+hint = """
+Enter `n` to move on to the next exercise.
+You might need to press ENTER after typing `n`."""
+
+[[exercises]]
+name = "contributing2"
+dir = "24_contributing_example"
+test = false
+hint = """
+The compiler is informing us that we've got the name of the print macro wrong.
+It also suggests an alternative."""

@@ -188,6 +188,10 @@ bin = [
   { name = "conversions4_sol", path = "../solutions/23_conversions/conversions4.rs" },
   { name = "conversions5", path = "../exercises/23_conversions/conversions5.rs" },
   { name = "conversions5_sol", path = "../solutions/23_conversions/conversions5.rs" },
+  { name = "contributing1", path = "../exercises/24_contributing_example/contributing1.rs" },
+  { name = "contributing1_sol", path = "../solutions/24_contributing_example/contributing1.rs" },
+  { name = "contributing2", path = "../exercises/24_contributing_example/contributing2.rs" },
+  { name = "contributing2_sol", path = "../solutions/24_contributing_example/contributing2.rs" },
 ]
 
 [package]
