@@ -14,6 +14,11 @@ This is a copy of the `exercises/00_intro` folder, with a few modifications to d
 - `cargo run -- dev check`
 - Solve the exercise but restore the modified files to the original state, so that the exercise is still unsolved.  
 
+  ```
+  git restore exercises/24_contributing_example/contributing2.rs
+  ```
+
+
 ## Exercise 1
 
 Rust uses the `print!` and `println!` macros to print text to the console.
