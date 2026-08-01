@@ -12,7 +12,7 @@ This branch illustrates how to contribute to Rustlings by adding a new exercise.
 
 These are the steps to add a new exercise to Rustlings:
 
-- Name the file `exercises/yourTopic/yourTopicN.rs`. In our case we have [exercises/24_contributing_example/contributing1.rs](/exercises/24_contributing_example/contributing1.rs) and [exercises/24_contributing_example/contributing2.rs](/exercises/24_contributing_example/contributing2.rs).
+- Name the file `exercises/yourTopic/yourTopicN.rs`. In our case we have created [exercises/24_contributing_example/contributing1.rs](/exercises/24_contributing_example/contributing1.rs) and [exercises/24_contributing_example/contributing2.rs](/exercises/24_contributing_example/contributing2.rs).
 - Make sure to put in some helpful links, and link to sections of The Book in `exercises/yourTopic/README.md`: In this case, see below section "[Further information](#further-information)" for links to The Book.
 - In the exercise, add a `// TODO: … comment` where user changes are required. See file [exercises/24_contributing_example/contributing1.rs](/exercises/24_contributing_example/contributing1.rs#L1-L7) and [exercises/24_contributing_example/contributing2.rs](/exercises/24_contributing_example/contributing2.rs#L2) for examples.
 - For each of the exercises, add solutions at `solutions/yourTopic/`. In our case at [solutions/24_contributing_example/](/solutions/24_contributing_example/) with comments explaining it.
