@@ -8,12 +8,11 @@ This is a copy of the `exercises/00_intro` folder, with a few modifications to d
 - For each of the exercises, add solutions at `solutions/yourTopic/`. In our case at [solutions/24_contributing_example/](/solutions/24_contributing_example/) with comments explaining it.
 - Add the [metadata for your exercise](#exercise-metadata) in the [`rustlings-macros/info.toml`](/rustlings-macros/info.toml#L1215-L1232) file.
 - Create a new branch: `git switch -c chore/contributing-example-fix` to check if your exercise runs
-- run `cargo dev update` to update the [dev-Cargo.toml](/dev-Cargo.toml) file with your new exercise.
+- run `cargo dev update` to update the [dev-Cargo.toml](/dev/Cargo.toml) file with your new exercise.
 - Make sure your exercise runs with `cargo run --bin rustlings -- run contributing2`
-- `cargo run --bin rustlings` and choose `l` and go to the exercise `exercises/24_contributing_example/contributing1.rs` and `exercises/24_contributing_example/contributing2.rs` to check that it works.
+- Or better `cargo run --bin rustlings` and choose `l` and go to the exercise `exercises/24_contributing_example/contributing1.rs` and `exercises/24_contributing_example/contributing2.rs` to check that it works.
 - `cargo run -- dev check`
-- Si no te convence, descartas toda la rama sin tocar `main`
-
+- Solve the exercise but restore the modified files to the original state, so that the exercise is still unsolved.  
 
 ## Exercise 1
 
